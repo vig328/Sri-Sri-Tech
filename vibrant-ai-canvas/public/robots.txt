@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin
+Disallow: /auth
+Disallow: /admin/login
+Disallow: /admin/users
+Disallow: /admin/contacts
+Disallow: /admin/consultations
+Disallow: /admin/newsletter
+Disallow: /admin/products
+
+
+Sitemap: https://amardeepbajpai.com/sitemap.xml
