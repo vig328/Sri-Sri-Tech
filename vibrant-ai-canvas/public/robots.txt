@@ -1,14 +1,24 @@
+# General settings for all search engines
 User-agent: *
+
+# Allow crawling of the main site structure
 Allow: /
+Allow: /products
+Allow: /industries
+Allow: /services
+Allow: /about
+Allow: /contact
+
+# Security: Disallow bots from common sensitive areas (standard practice)
+Disallow: /api/
+Disallow: /config/
 Disallow: /admin/
-Disallow: /admin
-Disallow: /auth
-Disallow: /admin/login
-Disallow: /admin/users
-Disallow: /admin/contacts
-Disallow: /admin/consultations
-Disallow: /admin/newsletter
-Disallow: /admin/products
+Disallow: /private/
+Disallow: /temp/
 
+# Security: Prevent indexing of 404/Error pages
+Disallow: /404
 
-Sitemap: https://amardeepbajpai.com/sitemap.xml
+# Host and Sitemap
+Host: https://sri-sri-tech.vercel.app
+Sitemap: https://sri-sri-tech.vercel.app/sitemap.xml
